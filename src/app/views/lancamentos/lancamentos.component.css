@@ -1,22 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-:root {
-  --cor-branco: #f3f3f3;
-  --cor-cinza-claro: #b0b0b0;
-  --cor-cinza-escuro: #262626;
-  --cor-azul-escuro: #090D16;
-  --cor-azul: #111A31;
-  --cor-preto: #121212;
-  --cor-preto-transparente: rgba(0, 0, 0, 0.3);
-  --font-fira-code: 'Fira code', monospace;
-}
-
 /* Lançamentos  destaques pc-gamer home-office */
+
 .lancamentos, .destaques, .pc-gamer, .home-office, .perifericos, .smartphones {
   padding-bottom: 50px;
   background-color: var(--cor-azul);
-  
 }
 
 .titulo-principal {
@@ -39,11 +25,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   font-family: var(--font-fira-code);
   color: var(--cor-branco);
   text-decoration: none;
 }
+
 .card-produto:hover {
   color: var(--cor-branco);
   opacity: 0.7;
@@ -71,12 +57,12 @@
 }
 
 @media screen and (max-width: 768px) {
- .titulo-principal {
-     text-align: center;
-     margin-bottom: 1em;
- }
+  .titulo-principal {
+    text-align: center;
+    margin-bottom: 1em;
+  }
   .imagem-produto {
-      width: 150px;
-      height: 140px;
- }
+    width: 150px;
+    height: 140px;
+  }
 }
