@@ -8,32 +8,32 @@ import { Component, OnInit } from '@angular/core';
 export class PerifericosComponent implements OnInit {
   produtosPerifericos = [
     {
-      imagem: '../../../../assets/img/imagens-produtos/mouse.jpg',
+      imagem: './assets/img/imagens-produtos/mouse.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '500,99'
     },
     {
-      imagem: '../../../../assets/img/imagens-produtos/monitor.jpg',
+      imagem: './assets/img/imagens-produtos/monitor.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '160,79'
     },
     {
-      imagem: '../../../../assets/img/imagens-produtos/teclado.jpg',
+      imagem: './assets/img/imagens-produtos/teclado.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '399,99'
     },
     {
-      imagem: '../../../../assets/img/imagens-produtos/mouse.jpg',
+      imagem: './assets/img/imagens-produtos/mouse.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '195,50'
     },
     {
-      imagem: '../../../../assets/img/imagens-produtos/teclado.jpg',
+      imagem: './assets/img/imagens-produtos/teclado.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '195,50'
     },
     {
-      imagem: '../../../../assets/img/imagens-produtos/monitor.jpg',
+      imagem: './assets/img/imagens-produtos/monitor.jpg',
       descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       valor: '195,50'
     }
